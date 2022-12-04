@@ -11,6 +11,12 @@ public class DragWire : MonoBehaviour
     [SerializeField] GameObject objective;
     public float radius;
     public bool done = false;
+    public bool justDone = false;
+    [SerializeField] GameObject cylinder;
+    [SerializeField] GameObject wires;
+    [SerializeField] GameObject gameManager;
+
+
 
     // Use this for initialization
     void Start()
@@ -57,12 +63,20 @@ public class DragWire : MonoBehaviour
             {
                 if (PointInsideSphere(this.transform.position, objective.transform.position, radius)){
                     done = true;
+                    justDone = true;
                     this.transform.position = objective.transform.position;
                 }
                 else {
                     this.transform.position = starterPosition;
                 } 
             }
+        }
+        else if (justDone)
+        {
+            cylinder.SetActive(false);
+            wires.SetActive(false);
+            gameManager.GetComponent<GameOver>().done.Add(true);
+            justDone = false;
         }
     }
 
