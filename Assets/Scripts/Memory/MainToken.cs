@@ -14,9 +14,12 @@ public class MainToken : MonoBehaviour
     public Material backMaterial;
     public int faceIndex;
     public bool matched = false;
+    public int win = 0;
+    public GameObject gameManager;
 
     public void OnMouseDown()
     {
+
         if (matched == false)
         {
             if (isBack)
@@ -34,6 +37,7 @@ public class MainToken : MonoBehaviour
             {
                 isBack = true;
                 meshFilter.mesh = back;
+                GetComponent<MeshRenderer>().material = backMaterial;
                 gameControl.GetComponent<GameControl>().RemoveVisibleFace(faceIndex);
             }
         }
@@ -45,9 +49,17 @@ public class MainToken : MonoBehaviour
         meshFilter = GetComponent<MeshFilter>();
         isBack = true;
         meshRenderer = GetComponent<MeshRenderer>();
+        isBack = true;
+        meshFilter.mesh = back;
+        GetComponent<MeshRenderer>().material = backMaterial;
+        gameControl.GetComponent<GameControl>().RemoveVisibleFace(faceIndex);
     }
 
     public void Match(){
         matched = true;
+        win = win + 1;
     }
+
+ 
+
 }

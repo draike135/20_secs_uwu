@@ -30,7 +30,7 @@ public class GameControl : MonoBehaviour
                 xPosition, yPosition, -5),
                 Quaternion.identity);
             temp.GetComponent<MainToken>().faceIndex = faceIndexes[shuffleNum];
-            temp.transform.rotation = Quaternion.Euler(0,90,90);
+            temp.transform.rotation = Quaternion.Euler(270,0,0);
 
             tokenList.Add(temp);
             faceIndexes.Remove(faceIndexes[shuffleNum]);
@@ -109,6 +109,11 @@ public class GameControl : MonoBehaviour
     {
         token = GameObject.Find("Token");
         tokenList.Add(token);
+    }
+
+    void Update()
+    {
+        Win();
     }
 
 }

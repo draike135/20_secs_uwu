@@ -6,6 +6,7 @@ public class GameOver : MonoBehaviour
 {
     public List<bool> done = new List<bool>();
 
+
     public bool gameDone = false;
     // Start is called before the first frame update
     void Start()
