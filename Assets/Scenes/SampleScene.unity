@@ -132,7 +132,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: da312a6a62867fe438e6c87ec88c5418, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: da312a6a62867fe438e6c87ec88c5418, type: 3}
       propertyPath: m_LocalPosition.x
@@ -617,7 +617,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e7cdcecaf5026624e8c132233f14cec7, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e7cdcecaf5026624e8c132233f14cec7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -701,7 +701,7 @@ Transform:
   - {fileID: 125799687}
   - {fileID: 1293579969}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 90, y: 0, z: 0}
 --- !u!1001 &137236877
 PrefabInstance:
@@ -822,7 +822,7 @@ LineRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: cae8cf81a56b4394b858003a7baff363, type: 2}
+  - {fileID: 2100000, guid: 877d0761cba40d540841a7f9279262cc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -853,8 +853,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.5052407
-        value: 0.2690029
+        time: 0.53897786
+        value: 0.2768154
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -867,7 +867,7 @@ LineRenderer:
     colorGradient:
       serializedVersion: 2
       key0: {r: 0.20784315, g: 0.69803923, b: 0.227451, a: 1}
-      key1: {r: 0.18823531, g: 0.6745098, b: 0.20392159, a: 1}
+      key1: {r: 0.43389106, g: 0.8301887, b: 0.44667482, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -883,7 +883,7 @@ LineRenderer:
       ctime6: 0
       ctime7: 0
       atime0: 0
-      atime1: 65535
+      atime1: 50693
       atime2: 0
       atime3: 0
       atime4: 0
@@ -898,7 +898,7 @@ LineRenderer:
     alignment: 0
     textureMode: 0
     shadowBias: 0.5
-    generateLightingData: 0
+    generateLightingData: 1
   m_UseWorldSpace: 1
   m_Loop: 0
 --- !u!54 &161351123
@@ -1193,7 +1193,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
 --- !u!1 &795027495 stripped
 GameObject:
@@ -1548,7 +1548,7 @@ LineRenderer:
     alignment: 0
     textureMode: 0
     shadowBias: 0.5
-    generateLightingData: 0
+    generateLightingData: 1
   m_UseWorldSpace: 1
   m_Loop: 0
 --- !u!54 &940535666
@@ -1678,7 +1678,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1042669015 stripped
 GameObject:
@@ -1798,7 +1798,7 @@ LineRenderer:
     alignment: 0
     textureMode: 0
     shadowBias: 0.5
-    generateLightingData: 0
+    generateLightingData: 1
   m_UseWorldSpace: 1
   m_Loop: 0
 --- !u!54 &1042669019
@@ -2479,8 +2479,8 @@ LineRenderer:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
-        time: 0.5052407
-        value: 0.2690029
+        time: 0.63681513
+        value: 0.2846279
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -2492,8 +2492,8 @@ LineRenderer:
       m_RotationOrder: 4
     colorGradient:
       serializedVersion: 2
-      key0: {r: 1, g: 0, b: 0, a: 1}
-      key1: {r: 1, g: 0, b: 0, a: 1}
+      key0: {r: 0.09433961, g: 0.08401565, b: 0.08401565, a: 1}
+      key1: {r: 1, g: 0.9789965, b: 0, a: 1}
       key2: {r: 0, g: 0, b: 0, a: 0}
       key3: {r: 0, g: 0, b: 0, a: 0}
       key4: {r: 0, g: 0, b: 0, a: 0}
@@ -2524,7 +2524,7 @@ LineRenderer:
     alignment: 0
     textureMode: 0
     shadowBias: 0.5
-    generateLightingData: 0
+    generateLightingData: 1
   m_UseWorldSpace: 1
   m_Loop: 0
 --- !u!54 &1612157267
@@ -3079,3 +3079,60 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 8513859187771203891, guid: 86bc613c6f024454587debc106341351, type: 3}
   m_PrefabInstance: {fileID: 117851591}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &2130618430
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 987261358126115578, guid: 368c617051df3544cb691ac8f14d3cb8, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 987261358126115578, guid: 368c617051df3544cb691ac8f14d3cb8, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.48
+      objectReference: {fileID: 0}
+    - target: {fileID: 987261358126115578, guid: 368c617051df3544cb691ac8f14d3cb8, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 9.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 987261358126115578, guid: 368c617051df3544cb691ac8f14d3cb8, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -0.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 987261358126115578, guid: 368c617051df3544cb691ac8f14d3cb8, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 987261358126115578, guid: 368c617051df3544cb691ac8f14d3cb8, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 987261358126115578, guid: 368c617051df3544cb691ac8f14d3cb8, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 987261358126115578, guid: 368c617051df3544cb691ac8f14d3cb8, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 987261358126115578, guid: 368c617051df3544cb691ac8f14d3cb8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 987261358126115578, guid: 368c617051df3544cb691ac8f14d3cb8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 987261358126115578, guid: 368c617051df3544cb691ac8f14d3cb8, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8534547673785312367, guid: 368c617051df3544cb691ac8f14d3cb8, type: 3}
+      propertyPath: m_Name
+      value: BombV1 1 Variant
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 368c617051df3544cb691ac8f14d3cb8, type: 3}
